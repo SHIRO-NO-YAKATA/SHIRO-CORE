@@ -191,7 +191,7 @@ contract GSNYToken is Context, IERC20, Ownable {
     bool private swapEnabled = true;
 
     uint256 public _maxTxAmount = 5000000 * 10**9;
-    uint256 public _maxWalletSize = 20000000 * 10**9;
+    uint256 public _maxWalletSize = 10000000 * 10**9;
     uint256 public _swapTokensAtAmount = 10000 * 10**9;
 
     event MaxTxAmountUpdated(uint256 _maxTxAmount);
