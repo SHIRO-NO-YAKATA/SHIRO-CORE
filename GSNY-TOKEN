@@ -178,8 +178,8 @@ contract GSNYToken is Context, IERC20, Ownable {
     uint256 private _previoustaxFee = _taxFee;
 
     mapping(address => bool) public bots; mapping (address => uint256) public _buyMap;
-    address payable private _developmentAddress = payable(0x774349A44110f4470c8a57e08966302aA66C757f);
-    address payable private _marketingAddress = payable(0x774349A44110f4470c8a57e08966302aA66C757f);
+    address payable private _developmentAddress = payable(00x3B8375088cD46ED01A7402628C51d553772522f7);
+    address payable private _marketingAddress = payable(0x3B8375088cD46ED01A7402628C51d553772522f7);
 
     IUniswapV2Router02 public uniswapV2Router;
     address public uniswapV2Pair;
